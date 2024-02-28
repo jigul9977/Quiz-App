@@ -1,0 +1,30 @@
+.custom-btn{
+  background-color: #fff;
+  padding: 20px 60px;
+  color: #176B87;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  transition:  all .2s ease-in-out;
+}
+.custom-btn:hover,.custom-btn:active,.custom-btn:focus-visible{
+  color:#fff!important;
+  background-color: #176B87!important;
+}
+.project-title {
+  color: #0c2d57;
+}
+a.btn {
+  font-size: 1.2rem;
+  color: #EEF5FF;
+  border: 3px solid #176b87;
+	background-color: #176b87;
+  border-radius: 15px;
+}
+
+a.btn:hover{
+	border: 3px solid #176b87;
+  background-color:#EEF5FF;
+  color: #176B87;
+}

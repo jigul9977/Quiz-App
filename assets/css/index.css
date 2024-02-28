@@ -1,0 +1,17 @@
+.custom-btn{
+  background-color: #fff;
+  padding: 20px 60px;
+  color: #176B87;
+  margin-bottom: 30px;
+  border: 2px solid #176B87;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  transition:  all .2s ease-in-out;
+}
+.custom-btn:hover{
+  color:#fff;
+  background-color: #176B87;
+}
+.project-title {
+  color: #0c2d57;
+}

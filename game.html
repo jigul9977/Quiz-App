@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/global.css" />
+    <link rel="stylesheet" href="./assets/css/game.css" />
+    <title>Arash Tavana | Play</title>
+  </head>
+  <body>
+    <div id="spinner" class="">
+      <div class="spinner-border custom-spinner-border" role="status"></div>
+    </div>
+    <h3 id="warning-text">Something went wrong. Please try again</h3>
+    <div class="container" id="wrapper">
+      <div id="header-section" class="d-flex justify-content-between">
+        <div class="left">
+          <p>Question No: <span id="question-number" class="ms-2 badge">1</span></p>
+        </div>
+        <div class="right">
+          <p>Score: <span id="score" class="ms-2 badge">0</span></p>
+        </div>
+      </div>
+      <div id="question-section" class="d-flex flex-column mb-4">
+        <h3 id="question-text" class="mb-5"></h3>
+        <button class="answer-text btn"></button>
+        <button class="answer-text btn"></button>
+        <button class="answer-text btn"></button>
+        <button class="answer-text btn"></button>
+      </div>
+      <button id="finish-btn" class="btn me-5">Finish</button>
+      <button id="next-btn" class="btn">Next</button>
+    </div>
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/game.js" type="module"></script>
+    <script src="./assets/js/functions.js" type="module"></script>
+  </body>
+</html>

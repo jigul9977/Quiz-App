@@ -1,0 +1,34 @@
+body{
+  padding: 15px 0
+}
+#score {
+  background-color: #176b87;
+  font-size: 2.5rem;
+}
+#username {
+  border: 3px solid #fff;
+  color: #176b87;
+  background-color: #EEF5FF;
+  padding: 15px 15px;
+  border-radius: 15px;
+  transition: all .2s ease-in;
+}
+#username:focus{
+  /* border: 0 0 0 .25rem #fff; */
+  box-shadow: 0 0 0 .25rem #fff;
+}
+#username::placeholder {
+  font-size: 1.1rem;
+}
+.button-group a ,.button-group button{
+  background-color: #fff;
+  font-size: 1.6rem;
+  border-radius: 20px;
+  color: #176b87; 
+  padding:10px ;
+  transition: all .2s ease-in-out;
+}
+.button-group a:hover , .button-group button:hover{
+  background-color: #176b87!important;
+  color: #fff;
+}
